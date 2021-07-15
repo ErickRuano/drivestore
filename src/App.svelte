@@ -6,10 +6,11 @@
 
 	const routes = {
 		'/' : CategoryList,
-		'/:id' : CategoryList,
-		'/:id/product/:id' : ProductDetail,
+		'/category/:id' : CategoryList,
+		'/category/:id/product/:id' : ProductDetail,
 		'/admin' : Admin
 	}
+
 </script>
 
 <main>
